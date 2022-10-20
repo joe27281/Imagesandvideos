@@ -1,0 +1,31 @@
+.video-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+iframe {
+    position: absolute;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 400px;
+  }
+
+body {
+    background-image: url("https://pe-images.s3.amazonaws.com/photo-effects/cc/transparent-type-area/image-showing-through-layer-photoshop.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 5px red;
+  }
+  
+.demoVideo {
+    position: fixed;
+    z-index: 20;
+    background-color: transparent;
+    min-width: 75%;
+    min-height: 75%;
+    margin-left: 10%;
+    top: 10%;
+    border: 1px white solid;
+    }
